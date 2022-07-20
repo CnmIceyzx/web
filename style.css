@@ -166,7 +166,7 @@ section#home {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('home.jpg') no-repeat center center/cover;
+        url('https://github.com/CnmIceyzx/web/blob/main/home.jpg') no-repeat center center/cover;
 }
 
 section#about {
@@ -177,7 +177,7 @@ section#about {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('./about.jpg') no-repeat center center/cover;
+        url('https://github.com/CnmIceyzx/web/blob/main/about.jpg') no-repeat center center/cover;
 }
 
 section#project {
@@ -188,7 +188,7 @@ section#project {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('./stars.jpg') no-repeat center center/cover;
+        url('https://github.com/CnmIceyzx/web/blob/main/stars.jpg') no-repeat center center/cover;
 }
 
 section#contact {
@@ -199,5 +199,5 @@ section#contact {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('./pencil.jpg') no-repeat center center/cover;
+        url('https://github.com/CnmIceyzx/web/blob/main/pencil.jpg') no-repeat center center/cover;
 }
