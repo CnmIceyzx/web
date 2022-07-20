@@ -1,0 +1,205 @@
+body {
+    letter-spacing: 1px;
+    color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    height: 100vh;
+}
+
+.web {
+    animation: fade-in 3s;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1{
+    color: #f4f4f4;
+    font-weight: 600;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+}
+
+#about {
+    box-shadow: 10em;
+    height: 100vh;
+}
+
+#copyright {
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 2.5em;
+    padding-top: 80px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#project {
+    height: 100vh;
+}
+
+#school {
+    width: 30%;
+    height: auto;
+}
+
+#project h1 {
+    font-size: 2.5em;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#project p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#project p a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#project p a:hover {
+    background-color: white;
+    color: black;
+}
+
+#project img {
+    margin: 30px;
+}
+
+#project1 {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    width: 30%;
+    height: auto;
+}
+
+#contact {
+    height: 100vh;
+}
+
+#contact h1 {
+    font-size: 2.5em;
+    padding-top: 80px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.5em;
+    padding-left: 150px;
+    max-width: 80%;
+    text-align: center;
+}
+
+#contact p a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#contact p a:hover {
+    background-color: white;
+    padding: 8px;
+    color: black;
+}
+
+#contact img {
+    padding-top: 40px;
+}
+
+.navbar {
+    position: fixed;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+  
+.navbar ul li {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+  
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+    padding: 10px;
+}
+  
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+section#home {
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url('home.jpg') no-repeat center center/cover;
+}
+
+section#about {
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url('about.jpg') no-repeat center center/cover;
+}
+
+section#project {
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url('stars.jpg') no-repeat center center/cover;
+}
+
+section#contact {
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url('pencil.jpg') no-repeat center center/cover;
+}
