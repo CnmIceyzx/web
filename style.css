@@ -137,7 +137,7 @@ section#home {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('../assets/tree.jpg') no-repeat center center/cover;
+        url('tree.jpg') no-repeat center center/cover;
 }
 
 section#about {
@@ -148,7 +148,7 @@ section#about {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('../assets/about.PNG') no-repeat center center/cover;
+        url('about.PNG') no-repeat center center/cover;
 }
 
 section#project {
@@ -159,5 +159,5 @@ section#project {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('../assets/moon.PNG') no-repeat center center/cover;
+        url('moon.PNG') no-repeat center center/cover;
 }
