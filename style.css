@@ -55,7 +55,7 @@ body {
 }
 
 #project {
-    height: 130vh;
+    height: 170vh;
 }
 
 #copyright2 {
@@ -137,7 +137,7 @@ section#home {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('tree.jpg') no-repeat center center/cover;
+        url('../assets/tree.jpg') no-repeat center center/cover;
 }
 
 section#about {
@@ -148,7 +148,7 @@ section#about {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('about.PNG') no-repeat center center/cover;
+        url('../assets/about.PNG') no-repeat center center/cover;
 }
 
 section#project {
@@ -159,5 +159,5 @@ section#project {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('moon.PNG') no-repeat center center/cover;
+        url('../assets/moon.PNG') no-repeat center center/cover;
 }
