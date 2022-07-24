@@ -63,6 +63,11 @@ body {
     height: auto;
 }
 
+#copyright2 {
+    text-align: center;
+    padding-top: 150px;
+}
+
 #project h1 {
     font-size: 2.5em;
     padding-top: 80px;
@@ -95,6 +100,7 @@ body {
     border-radius: 10px;
     border-width: 3px;
     width: 30%;
+    border-color: lightslategrey;
     height: auto;
 }
 
@@ -166,7 +172,7 @@ section#home {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('home.avif') no-repeat center center/cover;
+        url('tree.jpg') no-repeat center center/cover;
 }
 
 section#about {
@@ -177,7 +183,7 @@ section#about {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('about.avif') no-repeat center center/cover;
+        url('about.PNG') no-repeat center center/cover;
 }
 
 section#project {
@@ -188,7 +194,7 @@ section#project {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('stars.avif') no-repeat center center/cover;
+        url('moon.PNG') no-repeat center center/cover;
 }
 
 section#contact {
