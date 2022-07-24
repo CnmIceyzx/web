@@ -115,7 +115,6 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0 1rem;
     padding: 0.5rem;
-    transition: all 0.3s ease;
 }
   
 .navbar ul li a {
@@ -138,7 +137,7 @@ section#home {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('tree.jpg') no-repeat center center/cover;
+        url('../assets/tree.jpg') no-repeat center center/cover;
 }
 
 section#about {
@@ -149,7 +148,7 @@ section#about {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('about.PNG') no-repeat center center/cover;
+        url('../assets/about.PNG') no-repeat center center/cover;
 }
 
 section#project {
@@ -160,5 +159,5 @@ section#project {
           rgba(0, 0, 0, 0.7)
         ),
         /* bottom, image */
-        url('moon.PNG') no-repeat center center/cover;
+        url('../assets/moon.PNG') no-repeat center center/cover;
 }
