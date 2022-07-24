@@ -55,12 +55,7 @@ body {
 }
 
 #project {
-    height: 100vh;
-}
-
-#school {
-    width: 30%;
-    height: auto;
+    height: 130vh;
 }
 
 #copyright2 {
@@ -103,37 +98,6 @@ body {
     width: 30%;
     border-color: lightslategrey;
     height: auto;
-}
-
-#contact {
-    height: 100vh;
-}
-
-#contact h1 {
-    font-size: 2.5em;
-    padding-top: 80px;
-    text-align: center;
-}
-
-#contact p {
-    font-size: 1.5em;
-    text-align: center;
-}
-
-#contact p a {
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-}
-
-#contact p a:hover {
-    background-color: white;
-    padding: 8px;
-    color: black;
-}
-
-#contact img {
-    padding-top: 40px;
 }
 
 .navbar {
@@ -196,15 +160,4 @@ section#project {
         ),
         /* bottom, image */
         url('moon.PNG') no-repeat center center/cover;
-}
-
-section#contact {
-    background:
-        /* top, transparent black, faked with gradient */ 
-        linear-gradient(
-          rgba(0, 0, 0, 0.7), 
-          rgba(0, 0, 0, 0.7)
-        ),
-        /* bottom, image */
-        url('pencil.avif') no-repeat center center/cover;
 }
